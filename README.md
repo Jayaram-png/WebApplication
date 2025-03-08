@@ -20,8 +20,16 @@ Responsive Design: It works smoothly across different devices.
 
 
 Frontend: HTML, CSS, JavaScript, React.js
+
+
 Backend: Node.js, Express.js
+
+
 Database: MongoDB
+
+
 API Integration: Third-party banking APIs
+
+
 Deployment: Vercel
 
