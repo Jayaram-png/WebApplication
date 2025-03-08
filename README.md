@@ -1,4 +1,4 @@
-An Integrated Banking Management System functions as IBMS.
+**An Integrated Banking Management System functions as IBMS.**
 
 **Overview**
 
@@ -10,10 +10,20 @@ The Integrated Banking Management System (IBMS) functions as a web-based applica
 
 
 User Authentication: Secure login and registration system.
+
+
 You can handle as many bank accounts in a single user interface under the Account Management features.
+
+
 The application provides real-time access to credit scores together with their complete historical data.
+
+
 Transaction History: Track and view past financial transactions.
+
+
 Bill Payments: Simplified and secure bill payment system.
+
+
 Responsive Design: It works smoothly across different devices.
 
 **Technology Stack**
