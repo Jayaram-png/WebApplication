@@ -4,7 +4,7 @@ Overview
 The Integrated Banking Management System (IBMS) functions as a web-based application delivering a secure smart platform to operative multiple bank accounts and see details and monitor credit scores while paying bills and tracking financial activities across all accounts without interruptions.
 
 Features
-User Authentication:** Secure login and registration system.
+User Authentication: Secure login and registration system.
 You can handle as many bank accounts in a single user interface under the Account Management features.
 The application provides real-time access to credit scores together with their complete historical data.
 Transaction History: Track and view past financial transactions.
