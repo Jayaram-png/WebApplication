@@ -1,0 +1,184 @@
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+/* General Styles */
+body {
+  font-family: 'Poppins', 'Times New Roman', Times, serif, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background: linear-gradient(to right, #0044cc, #002b80);
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* Main Content Container */
+.container {
+  width: 85%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  color: #002b80;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #0044cc;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  margin: 15px 0;
+}
+
+
+/* Form Styling */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #0044cc;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"]:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+input[type="submit"]:hover:enabled {
+  background: #002b80;
+}
+/* style.css */
+.login-box {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Account Details */
+#account-details {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* Bills Section */
+#bills {
+  margin-top: 20px;
+}
+
+.bill-item {
+  background: #ffeeba;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+/* Credit Score Section */
+#credit-info {
+  background: #ffd700;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #002b80;
+  color: white;
+  margin-top: 20px;
+}
