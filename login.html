@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - IBMS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<style>
+    body{
+        background-color: aliceblue;
+    }
+</style>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+  </nav>
+
+  <div class="container">
+    <h2>Login</h2>
+    <form id="login-form" onsubmit="return loginUser(event)">
+      <label for="username">Email:</label>
+      <input type="text" id="username" name="username" required oninput="checkForm()" />
+      <p class="rules">Email must be a valid format (e.g., user@example.com)</p>
+      <span id="email-error" class="error"></span>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required oninput="checkForm()" />
+      <p class="rules">Password must be at least 8 characters, include uppercase, lowercase, and a number</p>
+      <span id="password-error" class="error"></span>
+
+      <input type="submit" id="submit-btn" value="Login" disabled />
+    </form>
+  </div>
+
+  <script>
+    function checkForm() {
+      const email = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      const submitBtn = document.getElementById('submit-btn');
+      const emailError = document.getElementById('email-error');
+      const passwordError = document.getElementById('password-error');
+
+      const emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      const passwordValid = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/.test(password);
+
+      emailError.textContent = emailValid ? '' : 'Invalid email format';
+      passwordError.textContent = passwordValid ? '' : 'Invalid password format';
+
+      submitBtn.disabled = !(emailValid && passwordValid);
+    }
+
+    function loginUser(event) {
+      event.preventDefault();
+      window.location.href = 'accounts.html';
+    }
+  </script>
+</body>
+</html>
